@@ -1,3 +1,4 @@
+#encriptacao de acordo com a ocorrencia da letra no portugues (inspirado no código morse)
 #Referencia: https://pt.wikipedia.org/wiki/Alfabeto_portugu%C3%AAs
 
 db = {
