@@ -41,9 +41,9 @@ def decrypt(In):
     In = In.split("j")
     out = str();
     for i in In:
-	    for key,val in db.items():
-	        if val == len(i):
-	            out+=key;
+	for key,val in db.items():
+		if val == len(i):
+			out+=key;
     return(out);
 
 
