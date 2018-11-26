@@ -1,4 +1,6 @@
 #Referencia: https://pt.wikipedia.org/wiki/Alfabeto_portugu%C3%AAs
+#O número de K's depende da ocorrência da letra no portugues,
+#esse é mais básico logo não adicionei pontuação nem simbolos.
 
 db = {
 "a":1,
