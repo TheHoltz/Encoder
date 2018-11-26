@@ -1,3 +1,5 @@
+#Encriptação de acordo com o valor na tabela ASCII
+
 def encrypt(In):
 	out = str();
 	for i in In:
