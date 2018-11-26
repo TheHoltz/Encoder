@@ -37,11 +37,6 @@ def encrypt(string):
             out+=(db[i]*'k'+'j');
     return(out);
 
-def search(list,search_age):
-    for name,age in list.items():
-        if age == search_age:
-            return name
-
 def decrypt(In):
     In = In.split("j")
     out = str();
