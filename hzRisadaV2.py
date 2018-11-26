@@ -1,6 +1,4 @@
 #Referencia: https://pt.wikipedia.org/wiki/Alfabeto_portugu%C3%AAs
-#O número de K's depende da ocorrência da letra no portugues,
-#esse é mais básico logo não adicionei pontuação nem simbolos.
 
 db = {
 "a":1,
@@ -39,18 +37,19 @@ def encrypt(string):
             out+=(db[i]*'k'+'j');
     return(out);
 
+
 def decrypt(In):
     In = In.split("j")
     out = str();
     for i in In:
-	for key,val in db.items():
-		if val == len(i):
-			out+=key;
+	    for key,val in db.items():
+	        if val == len(i):
+	            out+=key;
     return(out);
 
 
 while(1):
-	a = input("Insira string:")
+	a = input("Insira string para encriptar:")
 	print(encrypt(a))
-	a = input("Insira string:")
+	a = input("Insira string para desencriptar:")
 	print(decrypt(a))
